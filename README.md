@@ -1,6 +1,8 @@
-디지털영상처리 보고서
+#디지털영상처리 보고서
 
 7팀 양용석, 이준성, 이재경
+
+## 딥 러닝을 활용한 얼굴 추출 방법
 
 먼저 딥 러닝을 활용한 얼굴 추출 방법에 대해 알아보기 전에 딥 러닝이란,
 
@@ -72,7 +74,7 @@ Cascading Classifiers (하르 특징을 사용하여 검출)
 
 
 
--code
+### code
 
 ``` python
 //하르카스케이드 추출
@@ -139,10 +141,10 @@ setTimeout(processVideo, 0);
 ```
 
 
--출력 영상
-<img src="./main/output.gif">
+#### 출력 영상
+![output](https://user-images.githubusercontent.com/93495684/201446315-362ab9bb-b1bb-49e1-b23f-80d0a3f0f712.gif)
 
-- 소감
+##### 소감
 
 저희 조에서는 opencv에서 제공하는 haar cascades 알고리즘을 사용하여 얼굴 인식을 구현하였습니다. 
 위 프로젝트를 통해, haar cascades의 원리와 딥러닝을 활용하는 방법에 대해 알게 되었고, 
@@ -154,7 +156,7 @@ opencv의 함수, 명령어들의 활용도가 매우 높아 활용도 다양한
 
 
 
-- 참고자료
+###### 참고자료
 1. 딥러닝이란 무엇인가?, 텐서 플로우 블로그 (Tensor ≈ Blog), https://tensorflow.blog/%EC%BC%80%EB%9D%BC%EC%8A%A4-%EB%94%A5%EB%9F%AC%EB%8B%9D/1-%EB%94%A5%EB%9F%AC%EB%8B%9D%EC%9D%B4%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80/
 2. Tensorflow(텐서플로우) - 얼굴인식 Part 1, 라온피플(주), 2019.7.11., https://m.blog.naver.com/PostView.naver?isHttpsRedirect=true&blogId=laonple&logNo=221583231520#
 3. "25분만에 끝내는 인공지능 기초와 활용 및 사례 (ㄹㅇ블루오션)", "유튜브 비디오", 조코딩 JoCoding,  2022. 10. 3., https://www.youtube.com/watch?v=mRnXgBDf_oE 
