@@ -140,7 +140,7 @@ setTimeout(processVideo, 0);
 
 
 -출력 영상
-
+<img src="./main/output.gif">
 
 - 소감
 
